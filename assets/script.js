@@ -21,3 +21,12 @@
 // each div will be formatted and made dynamic with js framework other than bootstrap
 // this is to be determined
 // because I'm not quite there just yet
+
+// when user inputs desired location, click initiates jquerry request 
+// with pertinent API tool(?)
+// to capture data from jquerry request and display it in div1 and div2
+
+// when user inputs location, it is stored on a list for future reference below the search field
+// apply info to local storage and display as a row benath field in div1
+// for user to reference previous searches
+
