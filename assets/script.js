@@ -1,6 +1,16 @@
-// add a header with the name of the app
-// hard code into html
-// will never change on the page and makes purpose of page clear
+var search=document.getElementById("textarea");
+
+document.addEventListener("click", function () {
+    localStorage.setItem;
+    console.log("click");
+})
+
+fetch(https://api.openweathermap.org/data/2.5/weather?q={cityname}&appid={6167fdca66a105a7351aa83a0bf9614a})
+    .then(response => response.json())
+    .then(data => console.log(data));
+
+
+
 
 // add 3 divs to the body of html to accept dynamic instructions from source files
 // with classes and id's 
@@ -29,4 +39,3 @@
 // when user inputs location, it is stored on a list for future reference below the search field
 // apply info to local storage and display as a row benath field in div1
 // for user to reference previous searches
-
